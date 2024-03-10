@@ -5,3 +5,8 @@ function sendEmail() {
   const message = `body=${encodeURIComponent("")}`;
   window.location.href = `mailto:${email}?${subject}&${message}`;
 }
+
+function goToPaypal(amount) {
+  // TODO create paypal link
+  // window.location.href = `https://paypal.me/sandratullet/${amount}`;
+}
