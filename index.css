@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 4px;
 }
 
+.review-person {
+  font-style: italic;
+  margin-left: 30px;
+}
+
 .paypal-button {
   border: none;
   padding: 6px 20px 10px 20px;
@@ -15,4 +20,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 .paypal-button img {
   height: 20px;
+}
+
+.w3-show-small {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .w3-show-small {
+    display: block !important;
+  }
 }
