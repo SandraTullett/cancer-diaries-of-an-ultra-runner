@@ -21,7 +21,7 @@
     <!-- Navbar links. Hidden on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">About</a>
-      <a href="#quotes" class="w3-bar-item w3-button">Quotes</a>
+      <a href="#reviews" class="w3-bar-item w3-button">Reviews</a>
       <a href="#purchase" class="w3-bar-item w3-button">Purchase</a>
     </div>
   </div>
@@ -32,6 +32,12 @@
   <img class="w3-image" style="margin:100px 0px" src="pictures/frontcover2.jpg" alt="Front Cover" width="1600" height="800">
 </header>
 
+<div style="display: flex; justify-content: center;">
+  <a href="#purchase" class="w3-button w3-light-grey w3-show-small" style="width: 150px; border-radius: 15px;">
+    <i class="fa fa-chevron-down" style="margin-right:5px"></i> Purchase
+  </a>
+</div>
+
 <hr>
 
 <!-- Page content -->
@@ -39,9 +45,11 @@
 
   <!-- About Section -->
   <div class="w3-row w3-padding-64" id="about">
-    <div class="w3-col m6 w3-padding-large w3-hide-small" style="margin-top:50px">
+    <div class="w3-col m6 w3-padding-large" style="margin-top:15%">
       <img src="pictures/ladies5.jpg" class="w3-round w3-image w3-opacity-min" alt="About Me">
+      <p class="w3-center"><i>Photo credit - David Brawn</i></p>
     </div>
+
 
     <div class="w3-col m6 w3-padding-large">
       <h1 class="w3-center">About Me</h1><br>
@@ -53,32 +61,49 @@
         I increased my distance from a marathon to 50 miles, 100 miles and beyond.
         This culminated, in June 2017, with me running the Thames Ring 250 mile ultra event.
         I was fit, healthy and strong.
+      </p>
+      <p class="w3-large">
         However, in November that same year I was diagnosed with breast cancer and my future hopes and dreams were taken from me.
         I expected that I would not be running for quite some time.
       </p>
 
       <p class="w3-large">
-        As I found out more I realised that exercise was encouraged so I made a plan to continue to run and train for when my treatment was over.
+        When I found out that exercise was encouraged and other cancer patients had managed to run during their treatment, I decided to continue to run whenever I felt well enough.
+        If I couldn't run then I would walk. I set targets to reach through my treatment and had a goal for when everything was over.
+      </p>
+      <p class="w3-large">
+        Running became my therapy and also gave me some control in a period of my life where I felt that I had little.
+        I started to write a diary and I found comfort doing this. With my husband Russ' continual encouragement my diary has now been transformed into a book
+        which gives a full account of how running helped me through my breast cancer journey and beyond.
       </p>
     </div>
   </div>
   
   <hr>
   
-  <!-- Quotes Section -->
-  <div class="w3-row w3-padding-64" id="quotes">
+  <!-- Reviews Section -->
+  <div class="w3-row w3-padding-64" id="reviews">
     <div class="w3-col l6 w3-padding-large">
-      <h1 class="w3-center">Quotes</h1><br>
+      <h1 class="w3-center">Reviews</h1><br>
     
-      <h4>T. S. Eliot</h4>
+      <p class="w3-text-grey">
+        "Sandra's story is an exploration of the human spirit and a profound meditation on perseverence,
+        passion and the relentless pursuit of the extraordinary.
+        I haven't read a more compelling reason to be a runner that Sandra is able to communicate here."
+      </p>
+      <p class="review-person">James Elson - Founder of Centurion Running</p>
+      <br>
+
+      <p class="w3-text-grey">
+        "As you read Sandra' story it shows strength, courage and resilience.
+        Giving up or giving in are definitely not in her vocabulary."
+      </p>
+      <p class="review-person"><i>Mimi Anderson - Ultra running legend, multiple Guinness World Record holder and author</i></p>
+      <br>
+
       <p class="w3-text-grey">"Only those who will risk going too far can possibly find out how far one can go."</p>
-      <p class="w3-text-grey">What this means to me.</p><br>
-
-      <h4>T. S. Eliot</h4>
-      <p class="w3-text-grey">"Only those who will risk going too far can possibly find out how far one can go."</p><br>
-
-      <h4>T. S. Eliot</h4>
-      <p class="w3-text-grey">"Only those who will risk going too far can possibly find out how far one can go."</p><br> 
+      <p class="review-person"><i>Maria Gibbs</i></p>
+      <br> 
     </div>
     
     <div class="w3-col l6 w3-padding-large">
@@ -91,41 +116,40 @@
   <!-- Purchase Section -->
   <div class="w3-container w3-padding-64" id="purchase">
     <h1 class="w3-center">Get Your Copy</h1><br>
-    
     <p>
       Please make sure you include your <b>Name</b>, <b>Email</b> and <b>Address</b>
       in the note so I can send your copy to the correct place.
     </p>
 
-    <p class="w3-text-blue-grey w3-large"><b>Buy a signed copy - £xx.xx</b></p>
-    <button class="w3-button w3-light-grey paypal-button" type="button" onclick="goToPaypal(12)">
+    <p class="w3-text-blue-grey w3-large"><b>Buy a signed copy - £9.99 + £3.50 P&P</b></p>
+    <button class="w3-button w3-light-grey paypal-button" type="button" onclick="goToPaypal(9.99 + 3.50)">
       <img src="icons/paypal.svg"/>
     </button>
     <br><br>
 
-    <p class="w3-text-blue-grey w3-large"><b>Buy the ebook - £xx.xx</b></p>
-    <button class="w3-button w3-light-grey paypal-button" type="button" onclick="goToPaypal(10)">
+    <!-- <p class="w3-text-blue-grey w3-large"><b>Buy the ebook - £xx.xx</b></p>
+    <button class="w3-button w3-light-grey paypal-button" type="button" onclick="goToPaypal(xx)">
       <img src="icons/paypal.svg"/>
     </button>
-    <br><br>
+    <br><br> -->
 
-    <p>You can also contact me directly by email or on <a href="https://facebook.com">Facebook</a> to purchase a copy if you would prefer.</p>
-    <button class="w3-button w3-light-grey" type="submit">
+    <p>You can also contact me directly by email or on <a style="text-decoration: underline;" onclick="goToFacebook()">Facebook</a> to purchase a copy if you would prefer.</p>
+    <button class="w3-button w3-light-grey" type="button" onclick="sendEmail()">
       <i class="fa fa-envelope" style="margin-right:5px"></i> Send Message
     </button>
     <br><br>
 
     <p>
       A portion of the proceeds will be sent to the
-      <a href="https://donation.macmillan.org.uk/">Macmillian Cancer Support</a> charity.
-      Please consider making a donation even if you don't purchase a copy of the book,
-      they do great work and really...
+      <a href="https://portsmouthhospitalscharity.enthuse.com/donate">Portsmouth Hospitals Charity</a>
+      to fund the Cancer Information and Support Centre (previously Macmillan).
+      Please consider making a donation even if you don't purchase a copy of the book.
     </p>
 
     <p>
-      I set up this page to provide a cheaper and more personal alternative to buying from
-      <a href="https://www.amazon.co.uk/">Amazon</a>, but you are still more than welcome
-      to purchase from there instead if none of these options work for you.
+      I set up this page to provide a cheaper and more personal alternative
+      to buying from Amazon and makes donating a portion of the proceeds simpler.      
+      <!-- <a href="https://www.amazon.co.uk/">Amazon</a>, but you are still more than welcome to purchase from there instead if none of these options work for you. -->
     </p>
   </div>
 </div>

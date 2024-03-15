@@ -7,6 +7,11 @@ function sendEmail() {
 }
 
 function goToPaypal(amount) {
-  // TODO create paypal link
-  // window.location.href = `https://paypal.me/sandratullet/${amount}`;
+  const link = atob("aHR0cHM6Ly9wYXlwYWwubWUvc2FuZHJhdHVsbGV0dC8")
+  window.location.href = `${link}${amount}`;
+}
+
+function goToFacebook() {
+  const link = atob("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3NhbmRyYS5ob3BraW5zLjE4")
+  window.location.href = link;
 }
