@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 video {
-  max-width: 800px;
+  max-width: calc(min(800px, 100%));
   border: 1px solid lightgrey;
   border-radius: 5px;
 }
