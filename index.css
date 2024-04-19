@@ -26,6 +26,12 @@ h1, h2, h3, h4, h5, h6 {
   display: none;
 }
 
+video {
+  max-width: 800px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
 @media (max-width: 600px) {
   .w3-show-small {
     display: block !important;
