@@ -15,3 +15,14 @@ function goToFacebook() {
   const link = atob("aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3NhbmRyYS5ob3BraW5zLjE4")
   window.location.href = link;
 }
+
+function openVideo() {
+  // Show the div and scroll into view
+  const videoSectionEl = document.getElementById("paypal-walkthrough");
+  videoSectionEl.style.display = "block"
+  videoSectionEl.scrollIntoView({ block: "end", behavior: "smooth" });
+
+  // Play the video
+  const videoEl = document.getElementById("video-element");
+  videoEl.play();
+}
